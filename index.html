@@ -17,9 +17,11 @@
     <div
       class="up flex bg-pink-600 justify-center text-white p-3 items-center relative"
     >
-      <i class="fa-solid fa-suitcase text-5xl pr-6"></i>
+      <i class="fa-solid fa-suitcase text-4xl pr-6"></i>
       <p class="text-xl pr-4">Do you need a business account?</p>
-      <button class="border rounded-lg p-3 hover:bg-white hover:text-black hover:duration-1000">
+      <button
+        class="border rounded-lg p-3 hover:bg-white hover:text-black hover:duration-1000"
+      >
         Sign UP Now
       </button>
       <i
@@ -36,12 +38,12 @@
       </div>
       <div class="side flex gap-5 items-center">
         <button
-          class="og px-4 py-1 border border-pink-600 rounded-lg text-pink-600 hover:py-2 hover:bg-pink-50"
+          class="og px-4 py-1 border border-pink-600 rounded-lg text-pink-600 hover:py-2 hover:bg-pink-50 hover:duration-75"
         >
           Log in
         </button>
         <button
-          class="si border px-4 py-1 border-pink-600 rounded-lg bg-pink-600 text-white hover:py-2 hover:bg-pink-700"
+          class="si border px-4 py-1 border-pink-600 rounded-lg bg-pink-600 text-white hover:py-2 hover:bg-pink-700 hover:duration-75"
         >
           Sign up
         </button>
@@ -53,29 +55,64 @@
           </div>
         </button>
         <button class="hover:bg-pink-50 p-2 rounded-full">
-          <i class="fa-solid fa-bag-shopping text-pink-600"></i>
+          <i class="fa-solid fa-bag-shopping text-pink-600 p-2"></i>
         </button>
       </div>
     </div>
 
     <div class="panda flex items-center h-[90vh] ml-10">
-      <div class="search w-[100%] ">
-        <p class="text-4xl pb-5 w-[90%]">It's the food and groceries you love, delivered</p>
-        <div class="input flex border py-4 px-2 w-[80%]  justify-between bg-white shadow-lg  border-none rounded-xl">
-               <input class="w-[60%] active::border-none" type="text" placeholder="your street and street number">
-               <button class="text-pink-600">
-               <div class="flex items-center">
-                <i class="fa-solid fa-location-crosshairs pr-2"></i>
-                <p>Locate me</p>
-               </div>
-            </button>
-               <button class="bg-pink-600 rounded-lg text-white  p-3 hover:bg-pink-700 hover:scale-105">Find Food</button>
+      <div class="search w-[100%]">
+        <p class="text-4xl pb-5 w-[92%]">
+          It's the food and groceries you love, delivered
+        </p>
+        <div
+          class="input flex border py-4 px-2 w-[90%] justify-between bg-white shadow-2xl rounded-xl"
+        >
+        <div class="ad flex w-[83%] justify-between border-2 rounded-lg p-2 ">
+          <input
+            class="w-[60%] focus:outline-none"
+            type="text"
+            placeholder="your street and street number"
+          />
+          <button class="text-pink-600">
+            <div class="flex items-center">
+              <i class="fa-solid fa-location-crosshairs pr-2"></i>
+              <p>Locate me</p>
+            </div>
+          </div>
+          </button>
+          <button
+            class="bg-pink-600 rounded-lg text-white p-3 hover:bg-pink-700 hover:scale-105"
+          >
+            Find Food
+          </button>
         </div>
-
       </div>
       <div class="w-[70%]">
-        <img src="./pic/Backgrounda.png" alt="">
+        <img src="./pic/Backgrounda.png" alt="" />
       </div>
+    </div class="max-h-[30vh] overflow-hidden"
+  >
+    <div class="cook text-3xl ">
+      <p class="my-8 ml-16">You prepare the food, we handle the rest</p>
+     <div class="backc relative">
+         <img src="./pic/home-vendor-bd.jpg" alt="" class="co relative">
+
+         <div class="te w-[45vw] border-2 absolute top-[60%] left-24 bg-white p-5 rounded-lg shadow-2xl">
+          <p class="text-2xl pb-4">List your restaurant or shop on foodpanda</p>
+          <p class="text-base">Would you like millions of new customers to enjoy your amazing food and groceries? So would we!</p>
+          <p class="text-base pb-4">
+            It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!
+          </p>
+          <p class="text-base pb-4">Interested? Let's start our partnership today!</p>
+
+          <button
+          class="bg-pink-600 text-[15px]  rounded-lg text-white p-2 hover:bg-pink-700 hover:scale-105 "
+        >
+         Get Started
+        </button>
+         </div>
+     </div>
     </div>
   </body>
 </html>

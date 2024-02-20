@@ -13,47 +13,51 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <div class="sidebar sticky top-0 z-10">
+  <body class=" ">
+    <div class="sidebar  sticky top-0 z-20 ">
       <div
-        class="up flex bg-pink-600 justify-center text-white p-3 items-center relative"
+        class="up flex bg-pink-600 justify-center text-white p-3 items-center relative "
       >
-        <i class="fa-solid fa-suitcase text-4xl pr-6"></i>
+        <i class="fa-solid fa-suitcase text-4xl pr-6 hidden sm:block" ></i>
         <p class="text-xl pr-4">Do you need a business account?</p>
         <button
-          class="border rounded-lg p-3 hover:bg-white hover:text-black hover:duration-1000"
+          class="border rounded-lg text-[15px]   p-2 hover:bg-white hover:text-black hover:duration-1000 mr-6 "
         >
-          Sign UP Now
+          Sign UP  Now
         </button>
         <i
-          class="fa-solid fa-xmark absolute right-5 top-2 text-white opacity-55"
+          class="fa-solid fa-xmark absolute right-2 top-2 text-white opacity-55 md:text-xl"
         ></i>
       </div>
-      <div class="items-center flex justify-between px-5 md:hidden py-3 shadow-xl">
+      <div
+        class="items-center flex justify-between px-7 lg:hidden py-3 shadow-xl bg-white"
+      >
         <i class="fa-regular fa-user text-pink-600 text-2xl"></i>
         <img
-        class="h-[4vh]  "
-        src="./pic/2560px-Foodpanda_logo_since_2017.png"
-        alt=""
-      />
-      <i class="fa-solid fa-bag-shopping text-pink-600 text-2xl"></i>
+          class="h-[4vh]"
+          src="./pic/2560px-Foodpanda_logo_since_2017.png"
+          alt=""
+        />
+        <i class="fa-solid fa-bag-shopping text-pink-600 text-2xl"></i>
       </div>
-      <div class="navbar flex justify-between bg-white shadow-xl px-32 py-2 lg:px-5">
-        <div class="icon">
+      <div
+        class="navbar flex justify-between bg-white shadow-xl px-32 py-2 md:px-5 2xl:px-12 invisible lg:visible "
+      >
+        <div class="icon xl:mx-2">
           <img
-            class="h-[7vh] lg:h-[4vh] sm:hidden md:block"
+            class="h-[8vh]  sm:hidden md:block"
             src="./pic/2560px-Foodpanda_logo_since_2017.png"
             alt=""
           />
         </div>
-        <div class="side flex gap-5 items-center sm:hidden md:block">
+        <div class="side flex gap-5 items-center md:block xl:mx-2">
           <button
-            class="og px-4 py-1 border border-pink-600 rounded-lg text-pink-600 hover:py-2 hover:bg-pink-50 hover:duration-75"
+            class="og px-4 py-1 border border-pink-600 rounded-lg text-pink-600 hover:py-2 hover:bg-pink-50 hover:duration-75 lg:mr-5"
           >
             Log in
           </button>
           <button
-            class="si border px-4 py-1 border-pink-600 rounded-lg bg-pink-600 text-white hover:py-2 hover:bg-pink-700 hover:duration-75"
+            class="si border px-4 py-1 border-pink-600 rounded-lg bg-pink-600 text-white hover:py-2 hover:bg-pink-700 hover:duration-75 lg:mr-5"
           >
             Sign up
           </button>
@@ -65,21 +69,22 @@
             </div>
           </button>
           <button class="hover:bg-pink-50 p-2 rounded-full">
-            <i class="fa-solid fa-bag-shopping text-pink-600 p-2 "></i>
+            <i class="fa-solid fa-bag-shopping text-pink-600 p-2"></i>
           </button>
         </div>
       </div>
     </div>
-    <div class="panda flex items-center h-[90vh] ml-10 lg:h-[30vh] md:h-[10vh]">
-      <div class="search w-[100%]">
-
-        <p class="text-4xl pb-5 max-w-[70%] lg:max-w-[90vw]">
+    <div
+      class="panda flex  items-center h-[15vh] ml-5 lg:h-[60vh] xl:h-[70vh] relative xl:pt-[15%]"
+    >
+      <div class="search w-[100%] xl:ml-10 2xl:ml-28">
+        <p class="text-xl pb-5 w-[80%] font-[600] md:w-[80%] 2xl:w-[80%] md:text-2xl md:font-[200] lg:text-4xl lg:w-[55vw] xl:text-[45px]">
           It's the food and groceries you love, delivered
         </p>
         <div
-          class="input flex border py-4 px-2 max-w-[80%] justify-between bg-white shadow-2xl rounded-xl lg:max-w-[90vw]"
+          class="input flex border py-4 px-2 max-w-[80%] justify-between bg-white shadow-2xl rounded-xl lg:max-w-[80vw] 2xl:max-w-[50vw] invisible lg:visible "
         >
-          <div class="ad flex w-[83%] lg:w-[70%] justify-between border-2 rounded-lg p-2">
+          <div class="ad flex w-[80%] justify-between border-2 rounded-lg p-2 xl:w-[45vw] 2xl:w-[41vw]">
             <input
               class="w-[60%] focus:outline-none"
               type="text"
@@ -94,31 +99,54 @@
           </div>
 
           <button
-            class="bg-pink-600 rounded-lg text-white p-3 hover:bg-pink-700 hover:scale-105 lg:pr-2"
+            class="bg-pink-600 rounded-lg text-white p-3 hover:bg-pink-700 hover:scale-105 lg:pr-2 "
           >
             Find Food
           </button>
         </div>
       </div>
-      <div class="w-[70%]">
+      <div class="w-[80%] -z-10 md:pb-[20%]  lg:pb-0 ">
         <img src="./pic/Backgrounda.png" alt="" />
       </div>
     </div>
-    <div class="cook text-3xl min-h-[100vh] lg:min-h-[40vh]">
-      <p class="my-8 ml-16">You prepare the food, we handle the rest</p>
+    <div class="sw lg:invisible z-10 ml-1 ">
+      <div
+        class="ad flex w-[95%] justify-between shadow-xl rounded-lg p-2 bg-white "
+      >
+        <input
+          class="w-[60%] focus:outline-none"
+          type="text"
+          placeholder="your street and street number"
+        />
+        <button class="text-pink-600">
+          <div class="flex items-center">
+            <i class="fa-solid fa-location-crosshairs pr-2"></i>
+            <p>Locate me</p>
+          </div>
+        </button>
+      </div>
+      <div class=" pt-2">
+        <button
+          class="bg-pink-600 rounded-lg text-white p-3 hover:bg-pink-700 hover:scale-105 w-[95vw] "
+        >
+          Find Food
+        </button>
+      </div>
+    </div>
+    <div class="cook text-xl min-h-[60vh] lg:min-h-[80vh]">
+      <p class="my-8  ml-5 md:text-[25px] md:mt-24 lg:text-[35px] 2xl:mt-32">You prepare the food, we handle the rest</p>
       <div class="backc relative">
         <img src="./pic/home-vendor-bd.jpg" alt="" class="co relative" />
 
         <div
-          class="te max-w-[35vw] border-2 absolute top-[60%] left-24 bg-white p-5 rounded-lg shadow-2xl xl:max-w-[70vw]
-          lg:max-w-[50vw]"
+          class="te max-w-[85vw] border-2 absolute top-[60%] left-10 bg-white p-5 rounded-lg shadow-2xl xl:max-w-[50vw] lg:max-w-[60vw] md:max-w-[60vw] 2xl:max-w-[40vw] 2xl:left-[10%]"
         >
           <p class="text-2xl pb-4">List your restaurant or shop on foodpanda</p>
-          <p class="text-base">
+          <p class="text-base pb-5">
             Would you like millions of new customers to enjoy your amazing food
             and groceries? So would we!
           </p>
-          <p class="text-base pb-4">
+          <p class="text-base pb-4 ">
             It's simple: we list your menu and product lists online, help you
             process orders, pick them up, and deliver them to hungry pandas – in
             a heartbeat!
@@ -136,8 +164,8 @@
       </div>
     </div>
 
-    <div class="food mt-[10%] mx-24 lg:mx-10">
-      <p class="text-[30px]">Find these delicious foods!</p>
+    <div class="food mt-[50%] mx-24 lg:mx-16 md:mt-[20%] 2xl:mx-[10%]">
+      <p class="text-[20px] 2xl:text-[40px]">Find these delicious foods!</p>
       <div class="items grid grid-cols-4 gap-1 mt-5">
         <div class="picsa overflow-hidden rounded-lg relative bg-pink-200">
           <img
@@ -248,20 +276,23 @@
       </div>
     </div>
 
-    <div class="pocket m-20">
-      <p class="text-[35px]">Put us in your pocket</p>
+    <div class="pocket m-20 2xl:mx-[10%]">
+      <p class="text-[20px] 2xl:text-[40px]">Put us in your pocket</p>
       <div
-        class="pinki h-[60vh]  items-center bg-pink-600 mt-6 rounded-xl flex justify-between relative xl:h-[35vh] lg:h-[20vh]"
+        class="pinki h-[80vh] items-center text-center bg-pink-600 mt-6 rounded-xl flex flex-col justify-between relative xl:h-[40vh] lg:h-[55vh] md:h-[60vh] lg:flex-row lg:items-start lg:text-start 
+        2xl:h-[45vh] "
       >
-        <div class="w-[50vw] m-10 text-white ">
-          <p class="text-2xl pb-5 lg:text-xl">Download the food and groceries you love</p>
-          <div class="scan flex w-[33vw] items-center lg:w-[40vw]">
+        <div class="  ml-6 text-white">
+          <p class="text-[15px] md:text-[25px] pb-5 lg:text-xl  mt-10 xl:mt-5">
+            Download the food and groceries you love
+          </p>
+          <div class="scan flex w-[53vw] lg:items-center lg:w-[40vw]">
             <img
               src="./pic/bdhomepageqrcode.png"
               alt=""
-              class="h-[15vh] border p-1 rounded-lg lg:h-[5vh]"
+              class="h-[5vh] border p-1 rounded-lg lg:h-[15vh] hidden lg:block"
             />
-            <p class="pl-5 pb-10">
+            <p class=" pb-10 text-[10px] pl-14 md:text-[15px]   lg:min-w-[30vw] 2xl:max-w-[10vw]">
               It's all at your fingertips – the restaurants and shops you love.
               Find the right food and groceries to suit your mood, and make the
               first bite last. Go ahead, download us.
@@ -272,18 +303,24 @@
           </button>
         </div>
         <div class="">
-          <img src="./pic/home-foodpanda-apps.png" alt="" class="h-[85vh] xl:h-[55vh] lg:h-[25vh]" />
+          <img
+            src="./pic/home-foodpanda-apps.png"
+            alt=""
+            class="h-[45vh] xl:h-[55vh] xl:mb-28 lg:h-[60vh] md:h-[35vh] 2xl:pb-28
+            
+            "
+          />
         </div>
       </div>
     </div>
 
-    <div class="cook text-3xl min-h-[100vh] xl:min-h-[80vh]  lg:min-h-[20vh]">
-      <p class="my-8 ml-20">Take your office out to lunch</p>
+    <div class="cook text-xl  lg:min-h-[80vh]">
+      <p class="my-8 ml-5">Take your office out to lunch</p>
       <div class="backc relative h-[50vh]">
         <img src="./pic/home-corporate-bd.jpg" alt="" class="co relative" />
 
         <div
-          class="te max-w-[45vw] border-2 absolute top-[70%] left-24 bg-white p-5 rounded-lg shadow-2xl lg:top-[30%] left-[5%] max-w-[65vw]"
+          class="te max-w-[85vw] border-2 absolute top-[30%] xl:top-[50%] left-10 bg-white p-5 rounded-lg shadow-2xl lg:top-[60%] lg:left-[5%] xl:max-w-[45vw] lg:max-w-[60vw] md:max-w-[65vw] 2xl:top-[80%] 2xl:left-[10%]"
         >
           <p class="text-2xl pb-4 font-semibold">foodpanda for business</p>
           <p class="pb-5 text-[20px]">
@@ -300,11 +337,11 @@
       </div>
     </div>
 
-    <div class="order m-20">
-      <h1 class="text-2xl">
+    <div class="order my-32 lg:mx-10 xl:my-20 2xl:mx-[10%]">
+      <h1 class="text-xl font-[600]">
         Order food from the best restaurants and shops with foodpanda Bangladesh
       </h1>
-      <p class="py-10 text-[18px] font-thin">
+      <p class="py-10 text-[18px] font-[50] text-[#868383]">
         Are you hungry? Did you have a long and stressful day? Interested in
         getting a cheesy pizza delivered to your office or looking to avoid the
         weekly shop? Then foodpanda Bangladesh is the right destination for you!
@@ -326,7 +363,7 @@
         </button>
       </div>
     </div>
-    <footer class="mx-24">
+    <footer class="mx-4 lg:mx-12 2xl:mx-[10%]">
       <div class="first flex justify-between items-center border-y py-7 px-2">
         <img src="./pic/asd.PNG" alt="" />
         <div class="flex">
@@ -344,7 +381,7 @@
       </div>
 
       <div
-        class="sec grid grid-cols-4 gap-20 font-thin py-7 px-4 text-slate-600 border-b"
+        class="sec grid grid-cols-4 gap-20 font-thin py-7 px-4 text-slate-600 border-b "
       >
         <div>© 2024 foodpanda</div>
         <div class="w-[20vw]">
@@ -397,7 +434,7 @@
           </a>
         </div>
 
-        <div class="w-[20vw] text-[15px]">
+        <div class="w-[20vw] text-[15px] pr-5">
           <div>
             <a href="" class="p hover:text-pink-500 pr-2 hover:duration-300"
               >pandago for business</a
@@ -424,7 +461,7 @@
         </div>
       </div>
 
-      <div class="country py-7 px-4 ">
+      <div class="country py-7 px-4">
         <a
           href=""
           class="m font-thin text-lg border-r-2 px-4 hover:text-pink-500 hover:duration-300"
